@@ -54,7 +54,7 @@ label2.place(x=80,y=300)
 label3 = Label(structure, font=('lato black', 15, 'bold'), text="\t To Currency : ", bg="#e6e5e5", fg="black")
 label3.place(x=80,y=400)
 
-label4 =Label(structure, font=('lato black', 15, 'bold'), text="\t Converted Amount : ", bg="#e6e5e5", fg="black")
+label4 =Label(structure, font=('lato black', 15, 'bold'), text="\t Converted Amount : ", bg="#e6e5e5", fg="blue")
 label4.place(x=80,y=550)
 
 FromCurrency_option = tk.OptionMenu(structure, variable1, *CurrenyCode_list)
